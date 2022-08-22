@@ -12,12 +12,6 @@ driver = webdriver.Chrome(executable_path='C:/chromedriver.exe')
 driver.maximize_window()
 driver.get('https://www.dice.com/jobs?q=data%20architect&location=New%20York,%20NY,%20USA&latitude=40.7127753&longitude=-74.0059728&countryCode=US&locationPrecision=City&adminDistrictCode=NY&radius=30&radiusUnit=mi&page=1&pageSize=20&language=en') #Enter URL here
 time.sleep(3)
-'''search = driver.find_element_by_xpath('//input[@placeholder="Job title, skills or company"]')
-search.send_keys('data architect')
-location = driver.find_element_by_xpath('//input[@placeholder="Location (zip, city, state)"]')
-location.send_keys('New York')
-button = driver.find_element_by_id('submitSearch-button').click()
-time.sleep(5)'''
 
 def get_data():
     global header_added
