@@ -8,7 +8,7 @@ final_data = []
 coordinate= '53.5511'+","+'9.9937'
 keyword = 'gym  '
 radius = '1000'
-api_key = 'AIzaSyC1ZR7xxekD_tNuRSHxZA9SEJMhsKHewss' #insert your Places API
+api_key = '' #insert your Places API
 url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' + coordinate + '&radius=' + str(
     radius) + '&keyword=' + str(keyword) + '&key=' + str(api_key)
 while True:
