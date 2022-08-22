@@ -1,3 +1,4 @@
+#Import Libs
 import pyautogui, PIL
 import tkinter as tk
 from threading import Thread
